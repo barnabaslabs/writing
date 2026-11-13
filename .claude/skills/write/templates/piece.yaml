@@ -1,0 +1,10 @@
+title: ""
+genre: blog            # blog | seminary-paper | journal-article | essay | counseling-resource (genres/)
+venue: ""              # venues/<name>.md; overrides the genre
+reader: ""             # one specific kind of person, in a sentence
+length: 0              # words, body only
+deadline: ""           # YYYY-MM-DD or blank
+mode: agent-draft      # author | agent-draft
+translation: ""        # e.g. "dossier translation for <ref>; LSB elsewhere, checked in Logos"
+source: ""             # research repo files this piece rests on
+status: intake
