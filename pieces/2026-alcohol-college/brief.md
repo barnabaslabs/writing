@@ -13,8 +13,8 @@ Research thesis (barnabaslabs/research `topics/alcohol.md`, "Stage 5. Thesis," K
 | Wine is God's good gift; drinking is not in itself sin | Q1; Stage 4 systematic 2 | stated (Ps 104:15) / necessary (Deut 14:26 שֵׁכָר; Luke 7:33–34) |
 | Drunkenness is sin | Q3; systematic 1 | stated (Eph 5:18; Gal 5:21; 1 Pet 4:3) |
 | Under the legal age, obeying the law is obeying Christ | Q5; systematic 4; ladder col. 1 | necessary (Rom 13:1–5; 1 Pet 2:13–14; no Acts 5:29 exception) |
-| Under a code you signed, keeping your word honors Christ | Q5; systematic 5; ladder col. 2 | derived (Matt 5:37 principle, necessary for promises generally; Jer 35 illustration only) |
-| Wisdom counsels the young to stay clear | Q3 Prov 23; stage 3 Waltke; systematic 8 | stated (warning, Prov 23:19–21, 29–35) / plausible (that 23:31 means "don't drink at all," Waltke) |
+| Under a code you signed, keeping your word honors Christ | Q5; systematic 5; ladder col. 2; Dunne 244 (a kept lifelong promise, like the Rechabites') | derived (Matt 5:37 principle, necessary for promises generally; Jer 35 illustration only) |
+| Wisdom counsels the young to stay clear (Waltke: "stop drinking it"; Dunne: a warning against the first gaze, not a ban) | Q3 Prov 23; stage 3 Waltke; systematic 8 | stated (warning, Prov 23:19–21, 29–35) / plausible (that 23:31 means "don't drink at all," Waltke) |
 | Free adult: never under drink's control; for others' good; abstaining a valid choice | Q3, Q6; systematic 6–7; ladder col. 3 | stated (limits: Eph 5:18; Rom 14; Titus 2:3) / derived (specific practices) |
 
 ## Popular only
@@ -24,7 +24,7 @@ Research thesis (barnabaslabs/research `topics/alcohol.md`, "Stage 5. Thesis," K
 - **Claim most likely to be misread or resisted:** "Drinking alcohol is not in itself sin." Some readers will hear it as permission or as an attack on the code. The outline needs an explanation move that shows the texts (Ps 104:15; Luke 7:33–34) and immediately ties the code to keeping one's word, not to the morality of drinking. Second: "a school code binds you" will be resisted by 21+ students; explain it from "let your yes be yes" (Matt 5:37) and say plainly it is an application, not a verse about school codes.
 
 ## Things not to say
-- "Biblical wine was grape juice," "it was watered down," or "it was much weaker than ours." (Concordance and HALOT don't support the syrup/etymology claims; dilution unverified until Dunne is read.)
+- "Biblical wine was grape juice," "it was watered down," or "it was much weaker than ours." (Concordance and HALOT don't support the syrup/etymology claims; Dunne shows dilution was not common in Israel and did not make NT wine negligible in strength, pp. 34–39.)
 - "The Bible forbids drinking" or "Christians should never drink." (Commands to abstain are tied to roles, vows, callings or a command; Prov 23:31's scope is disputed.)
 - "The Bible allows it, so the school rule doesn't matter." (Matt 5:37.)
 - The code as God's own law or a direct command of Scripture. (Derived; Rom 14 warns against binding consciences.)
@@ -33,12 +33,12 @@ Research thesis (barnabaslabs/research `topics/alcohol.md`, "Stage 5. Thesis," K
 - "MacArthur ignores…" or any dismissive line about View B. (He grants the priests' rule may have been on duty and the vow voluntary; if the post touches the "royal priesthood" argument, answer it with 1 Pet 2:5, 9 and Luke 7:33–34, respectfully.)
 - That one night of drunkenness proves someone was never saved. (The vice lists describe a pattern of life.)
 - That Jesus supplied wine for people to get drunk. (John 2:10 describes a custom, not the guests or Jesus's purpose.)
-- Anything from Dunne or the NotebookLM summary until the book is read with page numbers; the temperance-movement history as an argument against abstainers.
+- Anything from the NotebookLM summary; Dunne only from the chapters read (1, 3, 7, 17) with page numbers. The temperance-movement history as an argument against abstainers.
 - Statistics or specific state laws unless a current source is cited ("what the law forbids you" is enough).
 - Scolding absolutes ("no serious Christian drinks," "every drink is a step toward addiction").
 - A personal story in Jack's voice he has not told. (Illustrations bank is empty; ask Jack.)
 
 ## Decisions for Jack at this checkpoint
 1. ~~How directly to name Liberty.~~ Settled by Jack (2026-11-13): use Liberty's residential students as the example of a code that binds regardless of age.
-2. **Whether to engage MacArthur's view in the post.** Recommended: no names and no wine-chemistry debate. Make the case for abstaining now from law, your word and wisdom; commend abstinence as wise later; save View B for a separate piece after Dunne is read.
+2. **Whether to engage MacArthur's view in the post.** Recommended: no names and no wine-chemistry debate. Make the case for abstaining now from law, your word and wisdom; commend abstinence as wise later; save View B for a separate piece.
 3. **The wisdom ground.** Proverbs 23 (with Waltke's reading that the father tells the young man to stop) is now a third reason for under-21s and code-keepers. Keep it as a supporting reason (recommended) or make it co-equal with law and promise.
