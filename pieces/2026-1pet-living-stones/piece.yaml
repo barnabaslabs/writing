@@ -8,3 +8,5 @@ citations: sbl         # sbl | mla
 translation: 1 Pet 2:4-10 author's own (dossier); other Scripture LSB, checked in Logos
 source: barnabaslabs/research passages/1pet/2.4-10.md (gated 2026-11-11/12)
 status: draft 2 (baseline run; reader test + substance check passed after revision)
+checkpoints: [thesis, outline]
+approved: {}           # baseline run predates checkpoints; brief and outline not yet approved by Jack

@@ -35,8 +35,8 @@ Then the argument map: the claims in order, each with its evidence (research lin
 4. **Objection** (academic): the strongest objection from the positions map, in its holder's words, and the answer. If there is no answer, change the thesis.
 5. **One sentence.** If the claim needs "and" to join two unrelated ideas, it is two pieces. Choose one.
 
-## 4. Write the brief and stop
+## 4. Write the brief and stop at the checkpoint
 
-Write `brief.md`, commit, and show Jack the thesis or big idea with its certainty labels. In attended sessions wait for his approval before outlining; unattended, mark it `status: thesis (awaiting Jack)` in `piece.yaml` and stop the piece there.
+Write `brief.md`, commit, and stop at the **thesis checkpoint** (write skill, "Checkpoints"): show Jack the claim with its certainty labels and the one or two decisions he most needs to weigh. Nothing is outlined until he approves, attended or not. If he edits `brief.md` himself, his wording stands; check it against the research and raise conflicts as questions.
 
 Model: Opus. This is the step the piece stands or falls on.

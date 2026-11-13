@@ -26,9 +26,9 @@ Genre rules: `genres/<genre>.md`. Venue rules: `venues/<venue>.md` (they overrid
 | # | Stage | Output | Who | Model |
 |---|---|---|---|---|
 | 0 | Intake | `piece.yaml`, row in `STATUS.md` | this skill | Haiku/Sonnet |
-| 1 | Thesis | `brief.md` | `thesis` | Opus |
+| 1 | Thesis | `brief.md` → **checkpoint: thesis** | `thesis` | Opus |
 | 2 | Research check | `research.md`; issues in barnabaslabs/research | this skill (until `research-request` exists) | Sonnet |
-| 3 | Outline | `outline.md` | this skill (until `outline` exists) | Opus |
+| 3 | Outline | `outline.md` → **checkpoint: outline** | this skill (until `outline` exists) | Opus |
 | 4 | Draft | `draft.md` | one writer per piece | Opus |
 | 5 | Review | `reviews/` | separate agents (below) | see below |
 | 6 | Revise | new draft, one commit per pass | this skill: first decide which level the review findings belong to (thesis, structure, evidence, reader) and fix the highest level first; then bookwright's `book-revise/references/prose-patterns.md` and `prose_lint.py` | Opus for the level decision, Sonnet for patterns |
@@ -38,7 +38,31 @@ Genre rules: `genres/<genre>.md`. Venue rules: `venues/<venue>.md` (they overrid
 
 **Modes.** `agent-draft`: Claude drafts stage 4, Jack edits after review. `author`: Jack writes `draft.md`; Claude does stages 0–3 as briefing, then reviews and gives a fix list as suggestions; never rewrites his sentences unless he says "apply them."
 
-**Status values** for `piece.yaml` and `STATUS.md`: `intake`, `thesis (awaiting Jack)`, `waiting on research#N`, `outline`, `draft N`, `review`, `revise`, `ready to export`, `published`. Two stops wait for Jack even when unattended: thesis approval, and anything that would publish or upload.
+**Status values** for `piece.yaml` and `STATUS.md`: `intake`, `awaiting Jack: <checkpoint>`, `waiting on research#N`, `thesis`, `outline`, `draft N`, `review`, `revise`, `ready to export`, `published`.
+
+## Checkpoints (Jack reviews)
+
+The piece stops at each checkpoint listed in `piece.yaml` `checkpoints:` and goes no further until Jack approves. **Thesis** and **outline** are always on; `research`, `draft` and `final` can be added per piece. A checkpoint holds whether or not Jack is watching: unattended, finish the stage, set `status: awaiting Jack: <checkpoint>`, update `STATUS.md`, commit, push, and stop that piece (other pieces may go on).
+
+| Checkpoint | After stage | Jack reviews | Show him |
+|---|---|---|---|
+| `thesis` (always) | 1 | `brief.md` | the claim with its certainty labels, the reader, believe/do (popular) or the four questions and argument map (academic), Things not to say, and any clause that strains the research |
+| `outline` (always) | 3 | `outline.md` | each section's claim, evidence, explanation move and the claims marked likely to be misread; word budget per section; where a story of his is wanted |
+| `research` | 2 | `research.md` | gaps and the requests to be filed, before any issue goes to barnabaslabs/research |
+| `draft` | 5 | `draft.md` + review reports | the merged fix list, before revising |
+| `final` | 6 | the built file | before export to any site, class or publisher |
+
+**At a checkpoint:** present a short summary in chat (no more than the table's "show him" column) with a link to the file, and name the one or two decisions most worth his attention. Then take his answer in any of three forms:
+
+1. **Approve** ("approved," "go ahead," "looks good"). Record it in `piece.yaml` under `approved:` with the date (e.g. `thesis: 2026-11-13`) and continue.
+2. **Revise by instruction** ("make the big idea about…," "cut section 3"). Change the file, show what changed, and ask again. Approval is never assumed from silence or from his answering a different question.
+3. **Revise by editing the file himself** (in Obsidian or on GitHub). Pull, read his version, and treat his wording as final: don't rephrase it. Check it only against the research (certainty, Things not to say) and raise any conflict as a question, not an edit. Then ask for approval of the edited version.
+
+**Downstream invalidation.** If an approved file changes later (by Jack or because a review found a problem), every later approval is void: a changed thesis reopens the outline checkpoint; a changed outline section reopens the draft for that section. Note the reason in `piece.yaml` under `reopened:`.
+
+**Comments.** If Jack leaves `%% JL: … %%` notes in `brief.md` or `outline.md`, treat each as an instruction for that checkpoint and remove it once handled.
+
+Publishing or uploading anything always waits for Jack, whether or not `final` is listed.
 
 **Research check** (stage 2; the thesis skill may call it early when the research has no thesis or meaning statement). Before outlining, list in `research.md` every claim the brief rests on and where the research holds it (file + line or section). Search `barnabaslabs/research` (`index/README.md`, then `grep -ril` across `passages/ words/ topics/ doctrine/ sources/`). For each gap: if it blocks the piece, file an issue in barnabaslabs/research (labels `request`, `from:writing`, `blocking`) with the question, the passage or topic, the depth wanted and a link to the piece, then set the piece to `waiting on research#N` in `STATUS.md` and stop that piece. Don't poll; check open issues at the next session. Non-blocking gaps are noted and the piece goes on without the claim.
 

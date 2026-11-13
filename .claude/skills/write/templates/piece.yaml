@@ -8,4 +8,6 @@ mode: agent-draft      # author | agent-draft
 citations: sbl         # sbl | mla (mla only for blog posts)
 translation: ""        # e.g. "dossier translation for <ref>; LSB elsewhere, checked in Logos"
 source: ""             # research repo files this piece rests on
+checkpoints: [thesis, outline]   # always; add research, draft, final as wanted
+approved: {}           # filled in at each checkpoint, e.g. thesis: 2026-11-13
 status: intake

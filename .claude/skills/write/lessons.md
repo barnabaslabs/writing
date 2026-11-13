@@ -7,3 +7,4 @@
 - 2026-11-12: unsourced color ("temple feasts," "shamed every week") and two definitions of "spiritual sacrifices." Rules 5 and 8.
 - 2026-11-12: the reader test found undefined terms, too many references, an overloaded section and scolding absolutes; the substance check found none of these. Keep both checks. Sonnet was enough for the reader; Opus earned its cost on substance.
 - 2026-11-12: a coverage check (Sonnet) found the tense of promises uncovered and six contradictions between write, thesis and the genre profiles; all fixed the same day.
+- 2026-11-13: Jack wants to review and revise at set stages. Checkpoints added: thesis and outline always; research, draft, final optional per piece. His own edits to a checkpoint file are final wording; later approvals reopen when an approved file changes.
