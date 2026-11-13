@@ -1,0 +1,14 @@
+# Blog post, MLA 9 in-text citations "(Jobes 144)" with a Works Cited list.
+# The simpler option for blog posts; choose it with `citations: mla` in piece.yaml.
+#   templates/pandoc/scripts/build.sh blog-mla pieces/<slug>/draft.md
+to: gfm+yaml_metadata_block-raw_html
+standalone: true
+wrap: none
+csl: templates/pandoc/csl/modern-language-association.csl
+filters:
+  - templates/pandoc/filters/block-unverified.lua
+  - templates/pandoc/filters/blog.lua
+  - citeproc
+  - templates/pandoc/filters/blog-final.lua
+metadata:
+  reference-section-title: Works Cited

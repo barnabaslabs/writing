@@ -32,7 +32,7 @@ Genre rules: `genres/<genre>.md`. Venue rules: `venues/<venue>.md` (they overrid
 | 4 | Draft | `draft.md` | one writer per piece | Opus |
 | 5 | Review | `reviews/` | separate agents (below) | see below |
 | 6 | Revise | new draft, one commit per pass | this skill: first decide which level the review findings belong to (thesis, structure, evidence, reader) and fix the highest level first; then bookwright's `book-revise/references/prose-patterns.md` and `prose_lint.py` | Opus for the level decision, Sonnet for patterns |
-| 7 | Export | `build/` | Pandoc (export skill later); confirm the translation's permission notice and the venue's fields first | Haiku |
+| 7 | Export | `build/` | `templates/pandoc/scripts/build.sh <target> pieces/<slug>/draft.md` (targets: `seminary-paper`, `blog`, `blog-mla`; see `templates/pandoc/README.md`); write `references.bib` from Zotero through the connector first; confirm the translation's permission notice and the venue's fields | Haiku |
 
 **Intake** (stage 0). Ask one question at a time, only what `piece.yaml` lacks: genre, reader (a specific person, not "Christians"), venue, length, deadline, mode, source in the research repo. Unattended: take the most reasonable reading, write it in `piece.yaml` with `# assumed`, and carry on to the thesis.
 

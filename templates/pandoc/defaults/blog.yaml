@@ -1,0 +1,14 @@
+# Blog post, SBL footnotes (current SBL: no place of publication), no bibliography.
+# Output is Hugo Markdown with YAML front matter; Goldmark renders [^n] footnotes.
+#   templates/pandoc/scripts/build.sh blog pieces/<slug>/draft.md
+to: gfm+yaml_metadata_block-raw_html
+standalone: true
+wrap: none
+csl: templates/pandoc/csl/sbl-fullnote-research.csl
+filters:
+  - templates/pandoc/filters/block-unverified.lua
+  - templates/pandoc/filters/blog.lua
+  - citeproc
+  - templates/pandoc/filters/blog-final.lua
+metadata:
+  suppress-bibliography: true

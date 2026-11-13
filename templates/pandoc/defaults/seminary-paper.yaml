@@ -1,0 +1,14 @@
+# SBL term paper (Student Supplement for the SBL Handbook of Style, 2nd ed.).
+# Run from the repo root through scripts/build.sh, which also runs fix_sections.py:
+#   templates/pandoc/scripts/build.sh seminary-paper pieces/<slug>/draft.md
+to: docx
+reference-doc: templates/pandoc/reference-docs/seminary-paper.docx
+citeproc: true
+csl: templates/pandoc/csl/sbl-student-supplement.csl
+shift-heading-level-by: 1
+filters:
+  - templates/pandoc/filters/block-unverified.lua
+  - templates/pandoc/filters/seminary-paper.lua
+metadata:
+  link-citations: false
+  suppress-bibliography: false

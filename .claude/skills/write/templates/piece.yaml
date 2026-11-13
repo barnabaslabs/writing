@@ -5,6 +5,7 @@ reader: ""             # one specific kind of person, in a sentence
 length: 0              # words, body only
 deadline: ""           # YYYY-MM-DD or blank
 mode: agent-draft      # author | agent-draft
+citations: sbl         # sbl | mla (mla only for blog posts)
 translation: ""        # e.g. "dossier translation for <ref>; LSB elsewhere, checked in Logos"
 source: ""             # research repo files this piece rests on
 status: intake
