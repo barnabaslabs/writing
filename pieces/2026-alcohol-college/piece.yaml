@@ -1,0 +1,21 @@
+title: ""                  # set at thesis
+genre: blog
+venue: undecided           # assumed: same open question as the 1 Peter piece (candidate: Renewing Grace)
+reader: >-
+  A Christian college student, 18–22, deciding what to do about drinking:
+  some under 21, some 21+ but under a school code they signed (e.g. the Liberty Way),
+  all heading toward adult freedom after graduation. No Greek, no seminary; reads on a phone.
+length: 1200               # assumed: genre default
+deadline: ""
+mode: agent-draft
+citations: sbl             # assumed: default; blog-mla is the simpler option if Jack prefers
+translation: ""            # set at outline; Scripture fetched in Logos (OpenTabs plugin)
+source: >-
+  barnabaslabs/research topics/alcohol.md (new; brief inbox/alcohol-brief.md);
+  dunneMountainsShallDrip2025 (in Zotero 2026-11-13, PDF pending from Jack)
+goal: >-
+  Jack's stated aim: students abstain while underage (and while under a code they agreed to),
+  and handle alcohol with care as adults.
+checkpoints: [thesis, outline]
+approved: {}
+status: intake
