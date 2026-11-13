@@ -1,4 +1,4 @@
-title: ""                  # set at thesis
+title: ""                  # working: "Whom Are You Answering To?" (set at outline)
 genre: blog
 venue: undecided           # assumed: same open question as the 1 Peter piece (candidate: Renewing Grace)
 reader: >-
@@ -11,11 +11,11 @@ mode: agent-draft
 citations: sbl             # assumed: default; blog-mla is the simpler option if Jack prefers
 translation: ""            # set at outline; Scripture fetched in Logos (OpenTabs plugin)
 source: >-
-  barnabaslabs/research topics/alcohol.md (new; brief inbox/alcohol-brief.md);
+  barnabaslabs/research topics/alcohol.md (stages 2–5, gated 2026-11-13, reviews/2026-11-13-alcohol-topic);
   dunneMountainsShallDrip2025 (in Zotero 2026-11-13, PDF pending from Jack)
 goal: >-
   Jack's stated aim: students abstain while underage (and while under a code they agreed to),
   and handle alcohol with care as adults.
 checkpoints: [thesis, outline]
 approved: {}
-status: intake
+status: "awaiting Jack: thesis"
