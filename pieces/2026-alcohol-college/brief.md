@@ -1,7 +1,7 @@
 # Brief
 
 ## Reader
-A Christian college student, 18–22, deciding what to do about drinking. Some are under 21. Some are 21 or older but have signed a school code that forbids alcohol while enrolled (the Liberty Way is the model case). All will be free adults within a few years. Many have heard either "drinking is a sin" or "the Bible is fine with it" and assume those are the only two options. No Greek, no seminary; reads on a phone.
+A Christian college student, 18–22, deciding what to do about drinking. Some are under 21. Some are 21 or older but have signed a school code that forbids alcohol while enrolled. Named example (Jack, 2026-11-13): residential students at Liberty University live under an honor code that prohibits alcohol whatever the student's age. All will be free adults within a few years. Many have heard either "drinking is a sin" or "the Bible is fine with it" and assume those are the only two options. No Greek, no seminary; reads on a phone.
 
 ## Claim
 Research thesis (barnabaslabs/research `topics/alcohol.md`, "Stage 5. Thesis," Kibbe question 3, revised after the review gates, commit 9a7d5d2): Scripture calls wine God's good gift and drunkenness sin, so the student's question is not whether alcohol is evil but whom he is answering to now: under the legal age, obeying the law is obeying Christ; under a code he signed, keeping his word is how he honors Christ; and Proverbs' counsel to the young adds a wisdom reason to stay clear. When he is free, faithfulness means enjoying the gift, if at all, under the Spirit's control and for others' good, never under the drink's, and abstaining remains a wise and honorable choice.
@@ -39,6 +39,6 @@ Research thesis (barnabaslabs/research `topics/alcohol.md`, "Stage 5. Thesis," K
 - A personal story in Jack's voice he has not told. (Illustrations bank is empty; ask Jack.)
 
 ## Decisions for Jack at this checkpoint
-1. **How directly to name Liberty.** The brief assumes a general campus with the Liberty Way as the model case, unnamed. Naming it makes the code section concrete but ties the post to one school.
+1. ~~How directly to name Liberty.~~ Settled by Jack (2026-11-13): use Liberty's residential students as the example of a code that binds regardless of age.
 2. **Whether to engage MacArthur's view in the post.** Recommended: no names and no wine-chemistry debate. Make the case for abstaining now from law, your word and wisdom; commend abstinence as wise later; save View B for a separate piece after Dunne is read.
 3. **The wisdom ground.** Proverbs 23 (with Waltke's reading that the father tells the young man to stop) is now a third reason for under-21s and code-keepers. Keep it as a supporting reason (recommended) or make it co-equal with law and promise.
