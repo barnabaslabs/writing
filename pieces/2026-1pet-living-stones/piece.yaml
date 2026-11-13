@@ -1,0 +1,9 @@
+title: "Rejected by People, Chosen by God"
+genre: blog
+venue: undecided        # candidate: Renewing Grace (site not yet developed)
+reader: church members and students; no Greek, no seminary training
+length: 1200                # words, body only
+mode: agent-draft           # Claude drafts, Jack edits
+translation: 1 Pet 2:4-10 author's own (dossier); other Scripture LSB, checked in Logos
+source: barnabaslabs/research passages/1pet/2.4-10.md (gated 2026-11-11/12)
+status: draft 2 (baseline run; reader test + substance check passed after revision)
